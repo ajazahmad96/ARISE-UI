@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1254 1254" width="1254" height="1254" role="img" aria-label="ARISE app icon">
+<defs>
+<linearGradient id="gMain" gradientUnits="userSpaceOnUse" x1="420" y1="300" x2="830" y2="640"><stop offset="0" stop-color="#FFFFFF"/><stop offset="0.5" stop-color="#EEEEF4"/><stop offset="1" stop-color="#A6ACC5"/></linearGradient>
+<linearGradient id="gTri" gradientUnits="userSpaceOnUse" x1="540" y1="735" x2="690" y2="600"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#B9BDD3"/></linearGradient>
+<linearGradient id="gLeg" gradientUnits="userSpaceOnUse" x1="790" y1="690" x2="960" y2="880"><stop offset="0" stop-color="#A9AFC8"/><stop offset="0.45" stop-color="#C9CCDD"/><stop offset="1" stop-color="#F6F6FA"/></linearGradient>
+<linearGradient id="gArrow" gradientUnits="userSpaceOnUse" x1="225" y1="880" x2="1070" y2="400"><stop offset="0" stop-color="#0564F4"/><stop offset="0.22" stop-color="#1C8BFA"/><stop offset="0.5" stop-color="#63C9FF"/><stop offset="0.8" stop-color="#3FA6FD"/><stop offset="1" stop-color="#5FCBFC"/></linearGradient>
+<linearGradient id="gBase" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#12161E"/><stop offset="0.3" stop-color="#04060A"/><stop offset="1" stop-color="#000000"/></linearGradient>
+<linearGradient id="gBorder" gradientUnits="userSpaceOnUse" x1="105" y1="105" x2="1150" y2="1135"><stop offset="0" stop-color="#8E97A8"/><stop offset="0.3" stop-color="#2B6FD6"/><stop offset="0.6" stop-color="#3C8DFF"/><stop offset="1" stop-color="#3C8DFF"/></linearGradient>
+<linearGradient id="gSheen" gradientUnits="userSpaceOnUse" x1="150" y1="150" x2="760" y2="560"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.07"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+<radialGradient id="gGlowBL" gradientUnits="userSpaceOnUse" cx="130" cy="1000" r="420"><stop offset="0" stop-color="#2F7BEA" stop-opacity="0.35"/><stop offset="1" stop-color="#2F7BEA" stop-opacity="0"/></radialGradient>
+<clipPath id="cp"><rect x="105" y="105" width="1045" height="1030" rx="235"/></clipPath>
+<filter id="blur" x="-10%" y="-10%" width="120%" height="120%"><feGaussianBlur stdDeviation="9"/></filter>
+</defs>
+<rect width="1254" height="1254" fill="#000"/>
+<rect x="105" y="105" width="1045" height="1030" rx="235" fill="url(#gBase)"/>
+<g clip-path="url(#cp)">
+<path d="M105,700 C130,430 420,190 760,105 L105,105Z" fill="url(#gSheen)"/>
+<rect x="105" y="500" width="520" height="640" fill="url(#gGlowBL)"/>
+</g>
+<rect x="105" y="105" width="1045" height="1030" rx="235" fill="none" stroke="url(#gBorder)" stroke-width="12" filter="url(#blur)" opacity="0.45"/>
+<rect x="105" y="105" width="1045" height="1030" rx="235" fill="none" stroke="url(#gBorder)" stroke-width="5"/>
+<path d="M629,284L625,286L590,336L533,423L294,803L295,806L313,808L350,802L398,789L453,770L630,496L716,629L813,566L783,517Z" fill="url(#gMain)"/>
+<path d="M639,587L634,590L586,651L525,736L592,703L683,652Z" fill="url(#gTri)"/>
+<path d="M755,735L851,882L1022,882L877,656L812,700Z" fill="url(#gLeg)"/>
+<path d="M1075.4,380.6L1074,380L1070,380.6L1032,392.6L855.2,451.8L854.4,453L855.2,453.8L862,455L946,462L950,462.8L951.8,464.2L951,466L920,497L867,545L818,584.2L755,629.4L712,657.4L653,692.8L602,720.8L529,756.8L498,770.8L463,785.4L413,804.4L382,814.4L353,822.2L322,828L314,829L300,829L287,826.4L278,821L274.4,817L272.6,813L272,800L274.4,791L281.2,777L289.6,764L304,746L319,731L320.6,728.2L319,727.6L294,747L264,776L249.8,793L236.6,812L228.2,828L224.6,838L223,845L222,857L223.6,865L226.2,872L233,881L242,887L253,891.4L268,894L294,894L326,889L344,885.2L395,871.4L431,859.4L458,849.4L533,818.8L616,780.8L672,752.8L731,720.8L796,681.4L847,646.4L898,607L942,568L969,540L985,521L1000.4,501L1001.8,500.2L1003.6,502L1021.8,587L1022.6,588.4L1023.4,588.4L1075.2,384Z" fill="url(#gArrow)"/>
+</svg>
